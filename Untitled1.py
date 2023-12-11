@@ -125,7 +125,7 @@ filtered_words = [word for word in word_list if word not in excluded_words]
 word_counts = Counter(filtered_words)
 
 # Get the most common words and their frequencies
-most_common = word_counts.most_common(20)  # Change 10 to display more or fewer words
+most_common = word_counts.most_common(20)  
 
 # Extract words and counts for the bar chart
 words = [word[0] for word in most_common]
